@@ -1,0 +1,53 @@
+{
+    "arr": [
+        {},
+        {
+            "id": 1,
+            "mname": "DEF",
+            "ability":[100,100,1,1,1,1,1,1,1,1,1,100,100],
+            "actions":[{
+                "id":1,
+                "kind":0,
+                "basic":3,
+                "skill_id":1,
+                "condition":
+                    {
+                        "id": 1,
+                        "content":{
+                            "dist_h":1
+                        }
+                    },
+                "rate":7
+            },{
+                "id":2,
+                "kind":1,
+                "basic":1,
+                "skill_id":5,
+                "condition":
+                    {
+                        "id": 1,
+                        "content":{
+                            "hp_h":30
+                        }
+                    },
+                "rate":5
+            },{
+                "id":3,
+                "kind":0,
+                "basic":0,
+                "skill_id":0,
+                "condition":
+                    {
+                        "id": 1,
+                        "content":{
+                            "dist_l":0.5,
+                            "cd":0.5
+                        }
+                    },
+                "rate":7
+            }],
+            "timer_name":["atk"],
+            "timer_val":[0.2]
+        }
+    ]
+}
